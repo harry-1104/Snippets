@@ -15,6 +15,7 @@
 #define bruv ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define __FILE(name) if (fopen(name".inp", "r")) freopen(name".inp", "r", stdin), freopen(name".out", "w", stdout);
 #define v vector
+#define printvec(x) copy(x.begin(), x.end(), ostream_iterator<int>(cout, " "));
 #define gcd(a, b) abs(__gcd(a, b))
 #define lcm(a, b) abs((a)*(b)/gcd(a, b))
 #define ll long long
