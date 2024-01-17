@@ -1,2 +1,2 @@
 # Snippets
-My code snippets
+These are some code snippets that i have created recently
