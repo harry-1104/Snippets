@@ -1,5 +1,5 @@
-#pragma optimization_level 4
 #pragma once
+#pragma optimization_level 4
 
 #pragma COPYRIGHT "------ ---- ----"
 #pragma COPYRIGHT_DATE "dd/mm/yyyy"
