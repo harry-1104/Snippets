@@ -4,17 +4,17 @@
 #pragma COPYRIGHT "------ ---- ----"
 #pragma COPYRIGHT_DATE "dd/mm/yyyy"
 
-#pragma GCC optimize("Ofast,no-stack-protector,unroll-loops,fast-math,O3")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx")
-#pragma GCC target("avx,avx2,fma")
+#pragma GCC optimize( "Ofast,no-stack-protector,unroll-loops,fast-math,O3" )
+#pragma GCC target( "sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx" )
+#pragma GCC target( "avx,avx2,fma" )
 
 #include <bits/stdc++.h>
 
 #define __nguyenquan__ signed main
 #define bruv ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-#define __FILE(name) if (fopen(name".inp", "r")) freopen(name".inp", "r", stdin), freopen(name".out", "w", stdout);
+#define __FILE(name) if ( fopen(name".inp", "r") ) freopen( name".inp", "r", stdin ), freopen( name".out", "w", stdout );
 #define v vector
-#define printvec(x) copy(x.begin(), x.end(), ostream_iterator<int>(cout, " "));
+#define printvec(x) copy( x.begin(), x.end(), ostream_iterator<int>(cout, " ") );
 #define gcd(a, b) abs(__gcd(a, b))
 #define lcm(a, b) abs((a)*(b)/gcd(a, b))
 #define ll long long
