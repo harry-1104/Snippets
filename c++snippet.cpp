@@ -15,10 +15,15 @@
 #define __FILE(name) if ( fopen(name".inp", "r") ) freopen( name".inp", "r", stdin ), freopen( name".out", "w", stdout );
 #define v vector
 #define printvec(x) copy( x.begin(), x.end(), ostream_iterator<int>(cout, " ") );
+#define fi first
+#define se second
+#define mp make_pair
+#define p pair
 #define gcd(a, b) abs(__gcd(a, b))
 #define lcm(a, b) abs((a)*(b)/gcd(a, b))
 #define ll long long
 #define lli long long int
+#define all(x) x.begin(), x.end()
 #define ull unsigned long long
 #define TIME (1.0 * clock() / CLOCKS_PER_SEC)
 
