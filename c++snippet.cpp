@@ -1,8 +1,8 @@
-// #pragma once
-#pragma optimization_level 4
 
-#pragma COPYRIGHT "------ ---- ----"
-#pragma COPYRIGHT_DATE "dd/mm/yyyy"
+/*
+	Author: ------ ---- --/--/----
+ 	Date created: --/--/----
+*/
 
 #pragma GCC optimize( "Ofast,no-stack-protector,unroll-loops,fast-math,O3" )
 #pragma GCC target( "sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx" )
