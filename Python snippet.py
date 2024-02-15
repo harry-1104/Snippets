@@ -3,19 +3,13 @@
 	Date created: dd/mm/yyyy
 '''
 
-# Functions
-def __FILE(name=None):
-	if name is None:
-		return None, None
-	try:
-		fi = open(name + ".inp", "r")
-		fo = open(name + ".out", "w")
-		return fi, fo
-	except FileNotFoundError:
-		return None, None
+import sys
 
-fi, fo = __FILE()
-
+def __FILE(name):
+	if ( open(name+".inp", 'r') ):
+		sys.stdin = open(name + ".inp", 'r')
+		sys.stdout = open(name + ".out", 'w')
+		sys.stderr = open(name + ".err", 'w')
 # Start here !
-
+__FILE()
 #
