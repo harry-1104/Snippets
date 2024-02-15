@@ -5,7 +5,6 @@
 
 import sys
 
-def input(): return sys.stdin.readline()
 def __FILE(name=None):
 	if name is None: pass
 	else: 
