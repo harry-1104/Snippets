@@ -14,13 +14,7 @@ def __FILE(name=None):
 	except FileNotFoundError:
 		return None, None
 
-def subsistence(*var):
-	for n in var:
-		if n is None:
-			del n
-
 fi, fo = __FILE()
-subsistence(fi, fo)
 
 # Start here !
 
