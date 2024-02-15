@@ -16,7 +16,7 @@ def __FILE(name=None):
 		except FileNotFoundError: pass
 
 ## This optional function is for reading variables in files
-# def input(arg): return sys.stdin.readline(arg)
+# def input(): return sys.stdin.readline()
 
 # Start here ! __nguyenquan__
 __FILE("nq")
