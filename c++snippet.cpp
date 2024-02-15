@@ -32,7 +32,7 @@ using namespace std;
 __nguyenquan__()
 {
 	bruv
-	__FILE();
+	__FILE("nq");
 	cerr <<"\nTime elapsed: " << TIME <<"s.\n";
 	return (0^0);
 }
